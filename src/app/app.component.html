@@ -1,0 +1,33 @@
+<div class="main">
+  <div class="main-container">
+
+    <div class="selection-cont">
+  
+      <select #c1 name="" id="currency1" (mouseleave)="changeBase(c1.value)">
+        <option value="USD">US Dollar</option>
+        <option value="BRL">BR Real</option>
+        <option value="EUR">EU Euro</option>
+        <option value="GBP">GB Pound</option>
+      </select>
+  
+      <p> to </p>
+  
+      <select #c2 name="" id="currency2" (mouseleave)="toCurrency(c2.value)">
+        <option value="USD">US Dollar</option>
+        <option value="BRL">BR Real</option>
+        <option value="EUR">EU Euro</option>
+        <option value="GBP">GB Pound</option>
+      </select>
+  
+    </div>
+  
+    <button (click)="convert()">Exchange</button>
+  
+    <div class="result-container">
+      <p>1 {{ base }}</p>
+      <p>=</p>
+      <p>{{ result }} {{currency2}}</p>    
+    </div>
+  
+  </div>
+</div>

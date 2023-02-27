@@ -1,0 +1,86 @@
+.main {
+    display: flex; 
+    height: 40.625rem; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.main-container {
+    background-color: rgb(53, 53, 53);
+    width: 21.875rem;
+    border-radius: .625rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.selection-cont{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;    
+}
+
+.selection-cont{
+    font-size: 1.25rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    
+}
+
+select{
+    font-size: 1.0625rem;
+    padding: .3125rem;
+    border-radius: .625rem;
+    border: none;
+    height: 1.875rem;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+}
+
+select:focus{
+    outline: none;
+}
+
+option{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    color: rgb(225, 214, 4);    
+}
+
+button{
+    background-color: rgb(212, 209, 209);
+    border: .125rem none;
+    border-radius: .3125rem;
+    color: #FFFFFF;
+    font-size: 1.5625rem;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+button:hover{
+    background-color: rgb(241, 236, 236);
+    color: rgb(115, 119, 119);
+    font-weight: 700;
+    border: none;
+    padding: .1875rem .625rem;
+    cursor: pointer;    
+}
+
+.result-container{
+    display: flex;
+    background-color: rgb(255, 255, 0);
+    margin: .625rem;
+    width: 12.5rem;
+    justify-content: space-evenly;
+    border-radius: .625rem;
+}
+
+.result-container p{
+    color: gray;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 1.125rem;
+}
