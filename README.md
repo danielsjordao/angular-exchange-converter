@@ -3,6 +3,10 @@
 O objetivo do projeto é o desenvolvimento de uma conversor de Câmbio sendo consumido por uma API onde será disponibilizado a cotação atualizada.
 O projeto será desenvolvido por meio do framework Angular e construção lógica em TypeScript. 
 
+# Angula Exchange Converter API
+
+https://api.exchangerate.host/latest?base=
+
 # ExchangeConverter
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
