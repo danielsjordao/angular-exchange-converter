@@ -7,7 +7,7 @@ O projeto será desenvolvido por meio do framework Angular e construção lógic
 
 https://api.exchangerate.host/latest?base=
 
-# ExchangeConverter
+# Exchange Converter
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
 
